@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <style>
+        .col {
+            border: 2px solid purple;
+        }
+    </style>
+
+    <title>Checks and Radios</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+                <h1>Checks and Radios</h1>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" value="" id="x1" disabled>
+                    <label class="form-check-label" for="x1">Default checkbox</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="x2" checked>
+                    <label class="form-check-label" for="x2">Checked checkbox</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="x2">
+                    <label class="form-check-label" for="x2">Checked checkbox</label>
+                </div>
+
+            </div>
+            <div class="col">
+                <h2>Radio</h2>
+                <div class="form-check ">
+                    <input class="form-check-input" type="radio" value="" id="x3" disabled>
+                    <label class="form-check-label" for="x3">Default checkbox</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" value="" id="x4">
+                    <label class="form-check-label" for="x4">Checked checkbox</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="x4.1">
+                    <label class="form-check-label" for="x4.1">Default switch checkbox input</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="x5">
+                    <label class="form-check-label" for="x5">Default switch checkbox input</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="x6" disabled>
+                    <label class="form-check-label" for="x6">Disabled switch checkbox input</label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <br>
+                <!--select single button as checkbox-->
+
+                <input type="checkbox" class="btn-check" id="btn-check1">
+                <label class="btn btn-outline-primary" for="btn-check1">Single toggle</label>
+
+                <input type="checkbox" class="btn-check" id="btn-check2">
+                <label class="btn btn-outline-primary" for="btn-check2">Single toggle</label>
+
+                <input type="checkbox" class="btn-check" id="btn-check3">
+                <label class="btn btn-outline-primary" for="btn-check3">Single toggle</label>
+                <br>
+                <p>button</p>
+            </div>
+            <div class="col">
+
+
+                <input type="checkbox" class="btn-check" id="btn-check-1">
+                <label class="btn btn-outline-primary" for="btn-check-1">Checked</label>
+
+                <input type="checkbox" class="btn-check" id="btn-check-2" checked>
+                <label class="btn btn-outline-primary" for="btn-check-2">Checked</label>
+
+                <input type="checkbox" class="btn-check" id="btn-check-3" checked>
+                <label class="btn btn-outline-primary" for="btn-check-3">Checked</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="radio" class="btn-check" name="options" id="option1" checked>
+                <label class="btn btn-outline-secondary" for="option1">Checked</label>
+
+                <input type="radio" class="btn-check" name="options" id="option2">
+                <label class="btn btn-outline-secondary" for="option2">Radio</label>
+
+                <input type="radio" class="btn-check" name="options" id="option3" disabled>
+                <label class="btn btn-outline-secondary" for="option3">Disabled</label>
+
+                <input type="radio" class="btn-check" name="options" id="option4">
+                <label class="btn btn-outline-secondary" for="option4">Radio</label>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
